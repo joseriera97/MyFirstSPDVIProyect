@@ -33,18 +33,22 @@
             // 
             // ButtonClick
             // 
+            this.ButtonClick.BackColor = System.Drawing.Color.Blue;
+            this.ButtonClick.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.25F);
+            this.ButtonClick.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ButtonClick.Location = new System.Drawing.Point(312, 175);
             this.ButtonClick.Name = "ButtonClick";
             this.ButtonClick.Size = new System.Drawing.Size(159, 80);
             this.ButtonClick.TabIndex = 0;
             this.ButtonClick.Text = "Click Pls";
-            this.ButtonClick.UseVisualStyleBackColor = true;
+            this.ButtonClick.UseVisualStyleBackColor = false;
             this.ButtonClick.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.ButtonClick);
             this.Name = "Form1";
